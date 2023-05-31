@@ -1,0 +1,29 @@
+.body{
+  margin:0;
+  padding:0;
+}
+.profilecard{
+  margin-bottom:2000px;
+}
+@keyframes slideInleft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to{
+    transform: translateX(0);
+  }
+}
+
+.heading-2 {
+  animation: slideInLeft 1s ease-out;
+  /* animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  transform: translateX(-150px); */
+}
